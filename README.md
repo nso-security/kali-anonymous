@@ -18,6 +18,9 @@
 > <hr />
 > <h6><sup>*</sup>Other Debian-based Linux distros may work, but this was designed for Kali.</h6>
 
+## What is it?
+<code>anonymous</code> was a script included in both Parrot Security OS and BackBox Linux which would allow users to change [spoof] their MAC Address, change their hostname, and transparently route traffic through Tor (The Onion Router) to provide anonymity for the user. I have edited the code so it will work better with Kali Linux, a great penetration testing- and security- based Linux distro that does <i>not</i> come with <code>anonymous</code>.
+
 ## How to use it
 Firstly, <code>clone</code> the repository and then <code>cd</code> into it:
 ~~~~
