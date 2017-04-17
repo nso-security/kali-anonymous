@@ -1,6 +1,6 @@
 # This script sets up "anonymous" for Kali Linux.
 # Made with <3 by Keegan Kuhn
-# keeganjk@protonmail.com
+# keeganjkuhn@gmail.com
 
 tor_install()
 	echo ""
