@@ -36,5 +36,13 @@ sudo sh setup.sh
 ~~~~
 
 [![asciicast](https://asciinema.org/a/2o0tciwy7luwv8oe42d1ymw75.png)](https://asciinema.org/a/2o0tciwy7luwv8oe42d1ymw75)
+
 This will run a script that installs Tor and the other necessary files for <code>anonymous</code> to work.
-To run <code>anonymous</code> after installation, run <code>anonymous</code> (for basic info), <code>anonymous start</code> (to start <code>anonymous</code>), <code>anonymous stop</code> (to stop <code>anonymous</code>), or <code>anonymous status</code> for <code>anonymous</code>'s status.
+
+<hr>
+
+<code>sudo anonymous</code> for basic info.
+<code>sudo anonymous start</code> to start <code>anonymous</code>
+<code>sudo anonymous stop</code> to stop <code>anonymous</code>
+<code>sudo anonymous status</code> for <code>anonymous</code>'s status
+<code>sudo anonymous update</code> to update <code>anonymous</code>
