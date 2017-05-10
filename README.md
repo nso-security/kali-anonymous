@@ -35,5 +35,7 @@ In order to install <code>kali-anonymous</code>, run this simple command below w
 sudo sh setup.sh
 ~~~~
 
+[![asciicast](http://asciinema.org/a/2o0tciwy7luwv8oe42d1ymw75)](http://asciinema.org/a/2o0tciwy7luwv8oe42d1ymw75)
+
 This will run a script that installs Tor and the other necessary files for <code>anonymous</code> to work.
 To run <code>anonymous</code> after installation, run <code>anonymous</code> (for basic info), <code>anonymous start</code> (to start <code>anonymous</code>), <code>anonymous stop</code> (to stop <code>anonymous</code>), or <code>anonymous status</code> for <code>anonymous</code>'s status.
