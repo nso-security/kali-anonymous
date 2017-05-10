@@ -42,7 +42,11 @@ This will run a script that installs Tor and the other necessary files for <code
 <hr>
 
 <code>sudo anonymous</code> for basic info.
+
 <code>sudo anonymous start</code> to start <code>anonymous</code>
+
 <code>sudo anonymous stop</code> to stop <code>anonymous</code>
+
 <code>sudo anonymous status</code> for <code>anonymous</code>'s status
+
 <code>sudo anonymous update</code> to update <code>anonymous</code>
