@@ -1,3 +1,4 @@
+#!/bin/bash
 # This script sets up "anonymous" for Kali Linux.
 # Made with <3 by Keegan Kuhn
 # keeganjkuhn@gmail.com
