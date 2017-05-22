@@ -32,8 +32,8 @@ cd kali-anonymous
 
 In order to install <code>kali-anonymous</code>, run this simple command below when in the <code>kali-anonymous</code> directory. This will automate the install process:
 ~~~~
-chmod +x setup.sh
-sudo ./setup.sh
+chmod +x setup
+sudo ./setup
 ~~~~
 
 [![asciicast](https://asciinema.org/a/2o0tciwy7luwv8oe42d1ymw75.png)](https://asciinema.org/a/2o0tciwy7luwv8oe42d1ymw75)
