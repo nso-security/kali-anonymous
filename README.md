@@ -51,3 +51,5 @@ This will run a script that installs Tor and the other necessary files for <code
 <code>sudo anonymous status</code> for <code>anonymous</code>'s status
 
 <code>sudo anonymous update</code> to update <code>anonymous</code>
+
+[![asciicast](https://asciinema.org/a/1j66olnqqrjc9qtj31014lp92.png)](https://asciinema.org/a/1j66olnqqrjc9qtj31014lp92.png)
