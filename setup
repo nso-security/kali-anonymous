@@ -1,7 +1,6 @@
 #!/bin/sh
 # This script sets up "anonymous" for Kali Linux.
 # Made with <3 by Keegan Kuhn
-# keeganjkuhn@gmail.com
 
 tor_install()
 	echo ""
@@ -31,12 +30,12 @@ echo "[*] Done !"
 # Copying files to needed locations
 echo "[.] Copying files to designated locations ..."
 cp anonymous /usr/sbin/anonymous
-cp backbox-anonymous /etc/default/backbox-anonymous
+cp kali-anonymous /etc/default/kali-anonymous
 echo "[*] Done !"
 echo
 echo "[.] chmod-ing files ..."
 chmod +x /usr/sbin/anonymous
-chmod +x /etc/default/backbox-anonymous
+chmod +x /etc/default/kali-anonymous
 echo "[*] Done !"
 
 # Finish
