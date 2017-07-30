@@ -36,8 +36,8 @@ OVERWRITE="true"
 REAL_HOSTNAME="kali"
 
 # Include default options, if any
-if [ -f /etc/default/backbox-anonymous ] ; then
-	. /etc/default/backbox-anonymous
+if [ -f /etc/default/kali-anonymous ] ; then
+	. /etc/default/kali-anonymous
 fi
 
 warning() {
