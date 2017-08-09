@@ -13,6 +13,17 @@
 
 # The <code>anonymous</code> script from ParrotSec and BackBox, perfected to run on Kali Linux Rolling.
 
+<hr>
+
+[Donate Bitcoin](https://blockchain.info/address/12mTakucP9YUvSdpfMJGHmxZGmP23q2SHz "Donate Bitcoin")
+
+<details>
+  <summary>Bitcoin Address:</summary>
+  <code>12mTakucP9YUvSdpfMJGHmxZGmP23q2SHz</code>
+</details>
+
+<hr>
+
 ### Supported platforms:
 > <h5>Kali Linux<sup>*</sup></h5>
 > <hr />
