@@ -6,7 +6,9 @@ echo ""
 echo "ANONYMOUS SETUP FOR KALI LINUX ROLLING"
 echo ""
 echo "[*] Updating package list ..."
+echo ""
 apt update
+echo ""
 echo "[+] Package list updated !"
 echo ""
 read -p "Is Tor installed on this computer? [Y/n] (N if unsure) " tor
