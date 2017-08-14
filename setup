@@ -2,22 +2,25 @@
 # This script sets up "anonymous" for Kali Linux.
 # Made with <3 by Keegan Kuhn
 
-tor_install()
-	echo ""
-	echo "ANONYMOUS SETUP FOR KALI LINUX ROLLING"
-	echo ""
-	read -p "Is Tor installed on this computer? [Y/n] (N if unsure) " tor
-	case $tor in
-		[Nn]* ) apt install tor -y; break;;
-		[Yy]* ) break;;
-        	* ) echo "You didn't type Y or n, aborting!"; break;;
-	esac;
-	read -p "Is macchanger installed on this computer? [Y/n] (N if unsure) " tor
-	case $tor in
-		[Nn]* ) apt install macchanger -y; break;;
-		[Yy]* ) break;;
-        	* ) echo "You didn't type Y or n, aborting!"; break;;
-	esac;
+echo ""
+echo "ANONYMOUS SETUP FOR KALI LINUX ROLLING"
+echo ""
+echo "[*] Updating package list ..."
+apt update
+echo "[+] Package list updated !"
+echo ""
+read -p "Is Tor installed on this computer? [Y/n] (N if unsure) " tor
+case $tor in
+	[Nn]* ) apt install tor -y; break;;
+	[Yy]* ) break;;
+       	* ) echo "You didn't type Y or n, aborting!"; break;;
+esac;
+read -p "Is macchanger installed on this computer? [Y/n] (N if unsure) " tor
+case $tor in
+	[Nn]* ) apt install macchanger -y; break;;
+	[Yy]* ) break;;
+        * ) echo "You didn't type Y or n, aborting!"; break;;
+esac;
 
 # Adding needed code to a Tor file
 echo "[.] Copying code to Tor configuration ..."
