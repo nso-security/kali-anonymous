@@ -7,7 +7,7 @@
 # changing MAC address and IP information and so on.
 #
 # Author: Raffaele Forte <raffaele@backbox.org>
-# Perfected for Kali Linux Rolling by Keegan Kuhn
+# Perfected for Kali Linux Rolling by keeganjk
 # Version: 1.4
 
 # List, separated by spaces, of destinations that you do not want to be
