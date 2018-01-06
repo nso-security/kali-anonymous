@@ -1,6 +1,6 @@
 #!/bin/sh
 # This script sets up "anonymous" for Kali Linux.
-# Made with <3 by Keegan Kuhn
+# Made with <3 by keeganjk
 
 echo ""
 echo "ANONYMOUS SETUP FOR KALI LINUX ROLLING"
